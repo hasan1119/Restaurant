@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <div class="logo"> <img class="img-fluid" src="./images/logo.png" alt="Logo"></div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto text-center mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Our Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#discount">promo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#order">order</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- home section  -->
+        <section id="home" class="d-flex align-items-center justify-content-center">
+            <div class="container">
+                <h1 class=" home-title text-center   text-white">Healthy Food Restaurant</h1>
+                <p class=" text-white home-paragraph text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                    elit.</p>
+            </div>
+        </section>
+        <!-- POPULAR menu section  -->
+        <section id="menu">
+            <div class="container pb-3">
+                <div class="menu-title  h2 fw-bold">POPULAR MENU</div>
+                <div class="menu-row">
+                    <div class="food bg-white">
+                        <div class="food-image">
+                            <img src="./images/noduls-1.png" alt="">
+                        </div>
+                        <h3>Noodles</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <h4>$13</h4>
+                    </div>
+                    <div class="food bg-white">
+                        <div class="food-image">
+                            <img class="" src="./images/noduls-1.png" alt="">
+                        </div>
+                        <h3>Noodles</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <h4>$13</h4>
+                    </div>
+                    <div class="food bg-white">
+                        <div class="food-image">
+                            <img src="./images/noduls-1.png" alt="">
+                        </div>
+                        <h3>Noodles</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <h4>$13</h4>
+                    </div>
+                </div>
+                <div class="text-center showBtnHolder"> <a href=""
+                        class="showMore d-inline-block m-5 btn btn-primary rounded-pill px-5 py-2 text-uppercase">Show
+                        more</a></div>
+            </div>
+        </section>
+
+        <!-- discount section  -->
+        <section id="discount">
+            <div class="container ">
+                <div class="row mx-1  mb-5 mb-md-0   d-flex align-items-center">
+                    <div class="col-12 col-md-6  p-0">
+                        <img class="img-fluid" src="./images/discount-1.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 p-0 ps-md-3  ">
+                        <h2>Discount up to 50% All Menu</h2>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla assumenda at id enim. Magni
+                            repellat esse numquam quam, eum ducimus.sit amet consectetur adipisicing elit. Nulla
+                            assumenda at id enim. Magni repellat esse numquam quam, eum ducimus.</p>
+                        <div class="text-center"> <a href=""
+                                class="showMore d-inline-block  btn btn-primary rounded-pill px-5 py-2 text-uppercase">read
+                                more</a></div>
+                    </div>
+                </div>
+                <div class="row mx-1 d-flex flex-column-reverse flex-md-row mb-5 mb-md-0   align-items-center">
+
+                    <div class="col-12 p-0 col-md-6 ">
+                        <h2>January’s Promo: Buy 1 Get 1 Free!</h2>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla assumenda at id enim. Magni
+                            repellat esse numquam quam, eum ducimus.sit amet consectetur adipisicing elit. Nulla
+                            assumenda at id enim. Magni repellat esse numquam quam, eum ducimus.</p>
+                        <div class="text-center"> <a href=""
+                                class="showMore d-inline-block  btn btn-primary rounded-pill px-5 py-2 text-uppercase">read
+                                more</a></div>
+                    </div>
+                    <div class="col-12 col-md-6   p-0 ">
+                        <img class="img-fluid" src="./images/discount-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- order section  -->
+        <section id="order">
+            <div class="container text-white text-center pb-5">
+                <h2 class="pt-5">HOW TO ORDER</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <div class="col px-5 mt-4 text-center">
+                        <h2 class="bg-white d-inline-block p-2 text-dark rounded-circle sirial-no">01</h2>
+                        <h3 class="my-2">Order</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe inventore molestiae maxime
+                            soluta sunt nostrum</p>
+                    </div>
+                    <div class="col  px-5 mt-4 text-center">
+                        <h2 class="bg-white d-inline-block p-2 text-dark rounded-circle sirial-no">02</h2>
+
+                        <h3 class="my-2">Choose Menu</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe inventore molestiae maxime
+                            soluta sunt nostrum</p>
+                    </div>
+                    <div class="col  px-5 mt-4   text-center">
+                        <h2 class="bg-white d-inline-block p-2 text-dark rounded-circle sirial-no">03</h2>
+
+                        <h3 class="my-2">Delivery</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe inventore molestiae maxime
+                            soluta sunt nostrum</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Delivery section  -->
+        <section id="delivery">
+            <div class="container delivery-title py-5 text-center">
+                <h2 class="mt-5 del-title ">Free Delivery</h2>
+                <p class="w-75 mx-auto del-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et fuga rerum
+                    facilis officiis quisquam sed ea similique architecto tempora?</p>
+                <div class="text-center"> <a href=""
+                        class="showMore d-inline-block mb-3 btn btn-primary rounded-pill px-5 py-2 text-uppercase">GET
+                        VOUCHER</a></div>
+            </div>
+        </section>
+
+        <!-- feedback section  -->
+        <section id="feedback">
+            <div class="container  text-center">
+                <div class="quote">
+                    <img src="./images/quate.png" alt="">
+                </div>
+                <p class="feedback">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quos facere libero ipsam doloribus
+                    non nihil quasi accusantium voluptates fugit exercitationem sunt cumque quas deserunt iste quidem
+                    officia minus nulla!
+                </p>
+                <h4 class="reviewer">Agus Waiters</h4>
+                <div class="social-icons">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center">
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <footer class="">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col">
+                            <h4>About</h4>
+                            <p class="text-white fooerAbout">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, a neque! Porro commodi
+                                molestiae cum voluptatibus! Accusamus quam enim porro laboriosam nemo inventore neque.
+                            </p>
+                        </div>
+                        <div class="col row">
+                            <div class="col">
+                                <h4>About</h4>
+                                <ul>
+                                    <li><a href="">Team</a></li>
+                                    <li><a href="">Join us</a></li>
+                                    <li><a href="">Ethic</a></li>
+                                    <li><a href="">Goals</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <h4>About</h4>
+                                <ul>
+                                    <li><a href="">Team</a></li>
+                                    <li><a href="">Join us</a></li>
+                                    <li><a href="">Ethic</a></li>
+                                    <li><a href="">Goals</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <h4>About</h4>
+                                <ul>
+                                    <li><a href="">Team</a></li>
+                                    <li><a href="">Join us</a></li>
+                                    <li><a href="">Ethic</a></li>
+                                    <li><a href="">Goals</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

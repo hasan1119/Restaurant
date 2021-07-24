@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* header styles */
+header {
+    height: 60px;
+    background-color: #7187ad;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.nav-link {
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+}
+
+/* home section styles */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#home {
+    background-image: url("../images/home-bg.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 100px 0;
+    padding-top: 220px;
+}
+
+.home-title {
+    font-size: 103px;
+}
+
+.home-paragraph {
+    font-size: 33px;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+/* menu section style */
+#menu {
+    background-image: url("../images/menu-bg.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.menu-title {
+    color: #7187ad;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.food-image {
+    width: 100%;
+}
+
+.food-image img {
+    width: 100%;
+}
+
+.menu-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.food {
+    padding: 10px;
+}
+
+/* order section style  */
+
+#order {
+    background-color: #7187AD;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+/* delivery section style  */
+#delivery {
+    background: linear-gradient(#0000006b, #000000b5), url(../images/delievary.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 0 0 30px;
+}
+
+.delivery-title {
+    color: #fff;
+}
+
+.del-title {
+    font-size: 81px;
+    font-weight: 700;
+    font-family: "Ubuntu";
+    text-align: center;
+    position: relative;
+    color: #1972f8;
+}
+
+.del-desc {
+    font-size: 29px;
+    color: #dce4f3;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+}
+
+/* feedback styles  */
+#feedback {
+    background: url("../images/footer.png");
+    background-repeat: no-repeat;
+    background-position: 0% 47%;
+    background-size: cover;
+    padding: 100px 0 0 0;
+}
+
+p.feedback {
+    width: 80%;
+    font-size: 21px;
+    line-height: 31px;
+    color: #7287ae;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    margin: 20px auto;
+}
+
+.reviewer {
+    font-size: 25px;
+    color: #7287ae !important;
+    font-weight: 700;
+    font-family: "Ubuntu";
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.rounded-pill,
+.showMore {
+    font-family: "Ubuntu";
+}
+
+.social-icons {
+    margin-bottom: 200px;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #7287AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons i {
+    color: #fff;
+}
+
+#feedback ul {
+    padding: 0;
+
+}
+
+#feedback h4 {
+    color: white;
+}
+
+#feedback .container {
+    padding-bottom: 10px;
+}
+
+#feedback ul a {
+    color: #fff;
+}
+
+
+
+
+@media screen and (max-width:992px) {
+    .navbar-collapse {
+        background: #060606f2;
+    }
+
+    #menu {
+        padding-bottom: 0 !important;
+    }
+
+    .food {
+        margin-bottom: 20px;
+    }
+
+    .del-desc {
+        font-size: 18px;
+    }
+    p.feedback {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .home-title {
+        font-size: 80px;
+    }
+
+    .home-paragraph {
+        font-size: 25px;
+    }
+
+    .menu-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+
+    #menu {
+        padding-bottom: 0 !important;
+    }
+
+    .del-title {
+        font-size: 70px;
+    }
+
+    
+
+}
+
+@media screen and (max-width:570px) {
+    header {
+        position: static;
+    }
+
+    #home {
+        padding: 52px 0;
+        padding-top: 123px;
+    }
+
+    .home-title {
+        font-size: 40px;
+    }
+
+    .home-paragraph {
+        font-size: 25px;
+    }
+
+    .logo {
+        max-width: 160px;
+    }
+
+    .menu-row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 20px;
+    }
+
+    .menu-title {
+        color: white;
+        margin-bottom: 45px;
+    }
+
+    #menu {
+        padding-top: 50px;
+        padding-bottom: 28px;
+    }
+
+    .food {
+        margin-bottom: 20px;
+    }
+
+    .showMore {
+        padding: 5px 15px !important;
+        margin: 15px 0 10px !important;
+    }
+
+
+
+    #order {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .del-title {
+        font-size: 35px;
+    }
+
+    .del-desc {
+        font-size: 15px;
+    }
+    .fooerAbout {
+        font-size: 13px;
+        line-height: 17px;
+        margin-bottom: 10px;
+    }
+    #feedback h4 {
+        font-size: 18px;
+    }
+    #feedback ul a {
+        font-size: 13px;
+    }
+}
+
